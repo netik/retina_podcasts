@@ -1,3 +1,4 @@
 html/wg/*.mp3
 html/piwik
-
+*~
+#*
