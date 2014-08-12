@@ -1,0 +1,24 @@
+{
+    "shows": [
+        {
+            "date": "Tue, 29 Jul 2014 11:00:00 GMT",
+            "title": "WG1: Welcome to Wicked Grounds with Siouxsie Q",
+            "subtitle": "Our first podcast",
+            "summary": "In our first episode, Ryan and Roo describe the history of the cafe and speak with special guest Siouxsie Q about some of her favorite things.",
+            "file" : "/wg/audio/Wicked.Grounds.7.28.2014.part1.mp3",
+            "url"  : "http://podcast.retina.net/wg/audio/Wicked.Grounds.7.28.2014.part1.mp3",
+	    "file_size" : "42398208",
+	    "duration" : "58:53"
+        },
+        {
+            "date": "Mon, 11 Aug 2014 00:00:00 GMT",
+            "title": "WG2: Siouxie Q Part 2",
+            "subtitle": "Siouxie Q and questions from the world.",
+            "summary": "In this episode, Roo and Ryan talk to Siouxie about Food, ElfQuest, Virginity, Theater, and take questions from the audience.",
+            "file" : "/wg/audio/Wicked.Grounds.7.28.2014.part2.mp3",
+            "url"  : "http://podcast.retina.net/wg/audio/Wicked.Grounds.7.28.2014.part2.mp3",
+	    "file_size" : "43632810",
+	    "duration" : "1:00:30"
+        }
+    ]
+}

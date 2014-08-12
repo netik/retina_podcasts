@@ -1,0 +1,13 @@
+body {
+  padding-top: 50px;
+}
+.podcast-masthead { 
+  padding: 40px 15px;
+  text-align: center;
+  background-image: url(mic-speaker-ts.jpg);
+  background-size:cover;
+  background-position: 40% 65%;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  
+}
