@@ -7,7 +7,6 @@ body {
   background-image: url(/images/mic-speaker-ts.jpg);
   background-size:cover;
   background-position: 40% 65%;
-  color: white;
+  color: #D9D9DB;
   text-shadow: 2px 2px #000000;
-  
 }

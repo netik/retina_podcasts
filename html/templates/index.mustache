@@ -74,23 +74,20 @@
 
 <ul class="media-list">
 <li class="media">
+ {{#shows}}
+  {{#show}}
   <a class="pull-left" href="#">
-    <img class="media-object" src="wg/WGLogo.jpg" alt="[WickedGroundsLogo]" width=64 height=64>
+    <img class="media-object" src="{{logo_url}}" alt="{{logo_alt}}" width=64 height=64>
   </a>
   <div class="media-body">
-    <h4 class="media-heading">Wicked Grounds </h4>
-    <P>Recordings from the Wicked Grounds Cafe, San Francisco, CA. (<A HREF="wg/wicked_grounds.rss">RSS Feed&nbsp;<img src="images/rss.jpg" alt="RSS" height=18 valign=center></A>)</p>
-    <P>Bi-Monthly Podcasts about BDSM, Sex, and more from the Wicked Grounds cafe in San Francisco, CA, USA</p>
-    <P>Do you want real talk? </p>
-    <P>The Wicked Grounds podcast is a collection of open
-    converstations captured live at Wicked Grounds Cafe. Subjects can
-    range from sex, relationships, politices, geekery, movies, more
-    sex, you name it.</P>
-
+    <h4 class="media-heading">{{name}} </h4>
+    <P>{{subtitle}}</p>
+    (<A HREF="{{rss_url}}">RSS Feed&nbsp;<img src="images/rss.jpg" alt="RSS" height=18 valign=center></A>)</p>
+    {{{html_heading}}}
     <div class="media">
-      {{#shows}}
+      {{#episodes}}
       <a class="pull-left" href="#">
-	<img class="media-object" src="wg/WGLogo.jpg" alt="[WickedGroundsLogo]" width=64 height=64>
+	<img class="media-object" src="{{logo_url}}" alt="{{logo_alt}}" width=64 height=64>
       </a>
       <div class="media-body">
 	<h3 class="media-heading">{{title}}</h4>
@@ -102,8 +99,10 @@
 	  {{summary}}
 	</P>
       </div>
-      {{/shows}}
+      {{/episodes}}
     </div>
+   {{/show}}
+  {{/shows}}
   </div>
 </LI>
 </UL>
@@ -131,7 +130,7 @@ To produce the shows, we use an <a href="http://www.apple.com">Apple</a> Macbook
 <a href="http://www.focusrite.com">Focusrite</a> microphone pre-amps,
 <A href="http://www.shure.com">Shure</a> SM7B microphones,
 and <a href="http://www.rodemic.com">R0de</a> PSA1 mic booms. We
-record straight to SSD using
+record straight to SSD disks using
 <a href="http://www.ableton.com">Ableton Live</a> and
 <a href="http://www.waves.com">Waves</a> Plugins.
 </P>
