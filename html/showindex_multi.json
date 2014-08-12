@@ -5,6 +5,8 @@
                 "name": "Wicked Grounds",
 		"subtitle" : "Recordings from the Wicked Grounds Cafe, 289 8th Street, San Francisco, CA",
                 "itunes": "https://itunes.apple.com/us/podcast/wicked-grounds-podcast/id905137997?mt=2",
+                "twitter": "https://twitter.com/WickedGrounds",
+                "facebook": "https://www.facebook.com/wickedgroundscafe",
 		"rss_url" : "wg/wicked_grounds.rss",
                 "logo_url": "wg/WGLogo.jpg",
                 "logo_alt": "[WickedGroundsLogo]",

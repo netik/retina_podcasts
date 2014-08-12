@@ -82,10 +82,17 @@
   <div class="media-body">
     <h4 class="media-heading">{{name}} </h4>
     <P>{{subtitle}}
-    (<A HREF="{{rss_url}}">RSS Feed&nbsp;<img src="images/rss.jpg" alt="RSS" height=18 valign=center></A> 
-    {#itunes}
-     | <a href="{{itunes}}">Subscribe with iTunes</a>
-    {/#itunes}
+    ( <A HREF="{{rss_url}}">RSS Feed&nbsp;<img src="images/rss.jpg" alt="RSS" height=18 valign=center></A> 
+    {{#itunes}}
+     | <a href="{{itunes}}"><img src="images/itunes.png" alt="Subscribe with Itunes" height=18></a>
+    {{/itunes}}
+    {{#twitter}}
+     | <a href="{{twitter}}"><img src="images/Twitter_logo_blue.png" alt="Twitter" height=18></a>
+    {{/twitter}}
+    {{#facebook}}
+     | <a href="{{facebook}}"><img src="images/fb_icon_325x325.png" alt="Facebook" height=18></a>
+    {{/facebook}}
+    )
     </p>
     </p>
     {{{html_heading}}}
