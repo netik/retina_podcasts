@@ -1,24 +1,70 @@
 {
     "shows": [
         {
-            "date": "Tue, 29 Jul 2014 11:00:00 GMT",
-            "title": "WG1: Welcome to Wicked Grounds with Siouxsie Q",
-            "subtitle": "Our first podcast",
-            "summary": "In our first episode, Ryan and Roo describe the history of the cafe and speak with special guest Siouxsie Q about some of her favorite things.",
-            "file" : "/wg/audio/Wicked.Grounds.7.28.2014.part1.mp3",
-            "url"  : "http://podcast.retina.net/wg/audio/Wicked.Grounds.7.28.2014.part1.mp3",
-	    "file_size" : "42398208",
-	    "duration" : "58:53"
-        },
-        {
-            "date": "Mon, 11 Aug 2014 00:00:00 GMT",
-            "title": "WG2: Siouxie Q Part 2",
-            "subtitle": "Siouxie Q and questions from the world.",
-            "summary": "In this episode, Roo and Ryan talk to Siouxie about Food, ElfQuest, Virginity, Theater, and take questions from the audience.",
-            "file" : "/wg/audio/Wicked.Grounds.7.28.2014.part2.mp3",
-            "url"  : "http://podcast.retina.net/wg/audio/Wicked.Grounds.7.28.2014.part2.mp3",
-	    "file_size" : "43632810",
-	    "duration" : "1:00:30"
+            "show": {
+                "name": "Wicked Grounds",
+		"subtitle" : "Recordings from the Wicked Grounds Cafe, 289 8th Street, San Francisco, CA",
+                "itunes": "https://itunes.apple.com/us/podcast/wicked-grounds-podcast/id905137997?mt=2",
+                "twitter": "https://twitter.com/WickedGrounds",
+                "facebook": "https://www.facebook.com/wickedgroundscafe",
+		"rss_url" : "wg/wicked_grounds.rss",
+                "logo_url": "wg/WGLogo.jpg",
+                "logo_alt": "[WickedGroundsLogo]",
+                "html_heading": "<P>Bi-Monthly Podcasts about BDSM, Sex, and more from the Wicked Grounds cafe in San Francisco, CA, USA</p><P>Do you want real talk? </p><P>The Wicked Grounds podcast is a collection of open converstations captured live at Wicked Grounds Cafe. Subjects can range from sex, relationships, politices, geekery, movies, more sex, you name it.</P>",
+                "episodes": [
+                    {
+		        "logo_url": "wg/WGLogo.jpg",
+			"logo_alt": "[WickedGroundsLogo]",
+                        "date": "Tue, 29 Jul 2014 11:00:00 GMT",
+                        "title": "WG1: Episode 1, part 1 - Welcome to Wicked Grounds with Siouxsie Q",
+                        "subtitle": "Our first podcast",
+                        "summary": "In our first episode, Ryan and Roo describe the history of the cafe and speak with special guest Siouxsie Q about some of her favorite things.",
+                        "file": "/wg/audio/Wicked.Grounds.7.28.2014.part1.mp3",
+                        "url": "http://podcast.retina.net/wg/audio/Wicked.Grounds.7.28.2014.part1.mp3",
+                        "file_size": "42398208",
+                        "duration": "58:53"
+                    },
+                    {
+		        "logo_url": "wg/WGLogo.jpg",
+			"logo_alt": "[WickedGroundsLogo]",
+                        "date": "Mon, 11 Aug 2014 00:00:00 GMT",
+                        "title": "WG2: Episode 1, part 2 - Siouxie Q, Q and A",
+                        "subtitle": "Siouxie Q and questions from the world.",
+                        "summary": "In this episode, Roo and Ryan talk to Siouxie about Food, ElfQuest, Virginity, Theater, and take questions from the audience.",
+                        "file": "/wg/audio/Wicked.Grounds.7.28.2014.part2.mp3",
+                        "url": "http://podcast.retina.net/wg/audio/Wicked.Grounds.7.28.2014.part2.mp3",
+                        "file_size": "43632810",
+                        "duration": "1:00:30"
+                    },
+                    {
+		        "logo_url": "wg/WGLogo.jpg",
+			"logo_alt": "[WickedGroundsLogo]",
+                        "date": "Sun, 31 Aug 2014 10:00:00 GMT",
+                        "title": "WG3: Episode 2, Part 1 - Dr. Carol Queen", 
+                        "subtitle": "Dr. Carol Queen (Good Vibrations, Center for Sex and Culture)",
+                        "summary": "In this episode, Roo and Ryan talk to Carol Queen, Author, editor, sociologist, CCO, and staff sexologist at Good Vibrations.",
+                        "file": "/wg/audio/Wicked.Grounds.8.30.2014.part1.mp3",
+                        "url": "http://podcast.retina.net/wg/audio/Wicked.Grounds.8.30.2014.part1.mp3",
+                        "file_size": "42666426",
+                        "duration": "59:09"
+                    },
+                    {
+		        "logo_url": "wg/WGLogo.jpg",
+			"logo_alt": "[WickedGroundsLogo]",
+                        "date": "Sun, 14 Sep 2014 10:00:00 GMT",
+                        "title": "WG4: Episode 2, Part 2 - Dr. Carol Queen", 
+                        "subtitle": "Dr. Carol Queen (Good Vibrations, Center for Sex and Culture)",
+                        "summary": "Continuing our talk wiht Dr. Carol Queen (Good Vibrations, Center for Sex and Culture)",
+                        "file": "/wg/audio/Wicked.Grounds.8.30.2014.part2.mp3",
+                        "url": "http://podcast.retina.net/wg/audio/Wicked.Grounds.8.30.2014.part2.mp3",
+                        "file_size": "42127722",
+                        "duration": "58:24"
+                    }
+
+                ]
+
+            }
         }
     ]
 }
+
